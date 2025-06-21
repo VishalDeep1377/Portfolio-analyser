@@ -9,4 +9,5 @@ jinja2
 xhtml2pdf
 transformers
 torch
-pdfplumber 
+pdfplumber
+beautifulsoup4 
