@@ -1,0 +1,12 @@
+streamlit
+pandas
+plotly
+PyGithub
+sentence-transformers
+scikit-learn
+umap-learn
+jinja2
+xhtml2pdf
+transformers
+torch
+pdfplumber 

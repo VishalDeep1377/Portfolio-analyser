@@ -1,0 +1,4 @@
+[server]
+# This option changes the file watcher to a more compatible polling mechanism,
+# which resolves known issues with libraries like PyTorch.
+fileWatcherType = "poll" 

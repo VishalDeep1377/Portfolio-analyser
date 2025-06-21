@@ -1,0 +1,35 @@
+<!-- portfolio_analyzer/templates/report_template.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portfolio Analysis Report for {{ username }}</h1>
+    
+    <h2>Overall Score: {{ score }}</h2>
+    
+    <h2>Skills Analysis</h2>
+    <!-- Skill chart will be embedded here -->
+    
+    <h2>Project Clusters</h2>
+    <!-- Project cluster visualization will be embedded here -->
+    
+    <h2>GPT-Powered Feedback</h2>
+    <div>{{ gpt_feedback }}</div>
+    
+    <h2>Learning Recommendations</h2>
+    <div>{{ recommendations }}</div>
+</body>
+</html> 
